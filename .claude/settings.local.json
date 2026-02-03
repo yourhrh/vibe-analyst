@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /Users/godonghwi/workspace/vide-analyst log --oneline -20)",
+      "Bash(tree:*)",
+      "Bash(find:*)",
+      "WebSearch"
+    ]
+  }
+}
