@@ -19,7 +19,11 @@
       "Bash(curl:*)",
       "mcp__playwright__browser_navigate",
       "mcp__playwright__browser_click",
-      "mcp__playwright__browser_take_screenshot"
+      "mcp__playwright__browser_take_screenshot",
+      "Bash(echo:*)",
+      "Bash(npx bddgen)",
+      "Bash(npx playwright test --list)",
+      "Bash(npx playwright test:*)"
     ]
   }
 }
