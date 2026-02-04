@@ -1,10 +1,15 @@
 {
   "permissions": {
     "allow": [
-      "Bash(git -C /Users/godonghwi/workspace/vide-analyst log --oneline -20)",
-      "Bash(tree:*)",
-      "Bash(find:*)",
-      "WebSearch"
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --use-npm --turbopack --no-git)",
+      "Bash(npx create-next-app@latest vide-analyst-init --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --use-npm --turbopack --no-git)",
+      "Bash(npx create-next-app@latest vibe-analyst-app --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --turbopack)",
+      "Bash(printf:*)",
+      "Bash(npx create-next-app@latest:*)",
+      "Bash(npm install:*)",
+      "Bash(npx shadcn@latest init:*)",
+      "Bash(npx shadcn@latest add:*)",
+      "Bash(npm run build:*)"
     ]
   }
 }
