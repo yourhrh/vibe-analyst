@@ -1,0 +1,23 @@
+import type { Preview } from '@storybook/react';
+import '../src/app/globals.css';
+
+const preview: Preview = {
+  parameters: {
+    backgrounds: {
+      default: 'warm-white',
+      values: [
+        { name: 'warm-white', value: '#fafaf8' },
+        { name: 'warm-gray', value: '#f5f3ef' },
+        { name: 'deep-navy', value: '#1a1a2e' },
+      ],
+    },
+    controls: {
+      matchers: {
+        color: /(background|color)$/i,
+        date: /Date$/i,
+      },
+    },
+  },
+};
+
+export default preview;

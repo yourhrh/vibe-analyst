@@ -9,7 +9,17 @@
       "Bash(npm install:*)",
       "Bash(npx shadcn@latest init:*)",
       "Bash(npx shadcn@latest add:*)",
-      "Bash(npm run build:*)"
+      "Bash(npm run build:*)",
+      "Bash(npx storybook@latest init:*)",
+      "Bash(npx storybook@8 init:*)",
+      "Bash(npx storybook build:*)",
+      "Bash(npm ls:*)",
+      "Bash(npm uninstall:*)",
+      "Bash(npx storybook dev -p 6006 --ci)",
+      "Bash(curl:*)",
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright__browser_click",
+      "mcp__playwright__browser_take_screenshot"
     ]
   }
 }
