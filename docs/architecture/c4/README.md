@@ -13,6 +13,12 @@ c4/
 │   ├── context-diagram.md         외부 시스템 연결 현황
 │   ├── container-diagram.md       폴더별 🟢🟡🔴 구현 현황
 │   ├── component-diagram.md       파일 단위 구현 현황 + 타입/Props 상세
+│   └── code/                      ← Code 레벨 (모듈별 상세)
+│       ├── types.md               types/ 4개 파일 인터페이스 전체
+│       ├── infra.md               infra/ 4개 Port 인터페이스
+│       ├── design-system.md       tokens + fonts 설정
+│       ├── app.md                 layout, pages, globals.css
+│       └── components-ui.md       shadcn 18개 + IDEO 커스텀 6개
 │
 ├── context-diagram.md             → 리다이렉트
 ├── container-diagram.md           → 리다이렉트
@@ -31,3 +37,4 @@ c4/
 코드 변경 시 `current/` 문서도 함께 업데이트:
 - Container 추가/완료 → `current/container-diagram.md`
 - 파일 추가/완료 → `current/component-diagram.md`
+- 코드 상세 변경 → `current/code/{모듈}.md`
